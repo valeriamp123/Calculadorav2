@@ -20,6 +20,7 @@ def sumar():
     return render_template("suma.html")
 
 @app.route("/Division", methods=["GET","POST"])
+#cambio
 def dividir():
     if request.method == "POST":
      if not request.form.get("numero 1") or not request.form.get("numero 2"):
